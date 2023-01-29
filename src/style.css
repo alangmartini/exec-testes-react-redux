@@ -6,6 +6,10 @@ p {
 
 /* TodoList styles */
 
+body {
+  background-color: #1c2331;
+}
+
 ul {
   list-style: none;
   padding: 0;
@@ -13,8 +17,9 @@ ul {
 }
 
 li {
-  background-color: #1c2331;
-  color: white;
+  /* background-color: #1c2331; */
+  background-color: white;
+  color: #1c2331;
   padding: 16px;
   margin-bottom: 8px;
   border-radius: 4px;
@@ -32,6 +37,15 @@ li {
 }
 
 .todo-remove {
+  background-color: #ff9f43;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.todo-add {
   background-color: #ff9f43;
   color: white;
   padding: 8px 12px;
